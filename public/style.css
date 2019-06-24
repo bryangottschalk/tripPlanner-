@@ -8,6 +8,28 @@ body {
   background-color: #c1b5ad;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ulcontainer {
+  display: flex;
+  padding: 20px;
+}
+
+li {
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  padding-left: 20px;
+}
+
 #map {
   height: 100vh;
   width: 100vw;
